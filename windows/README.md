@@ -1,4 +1,4 @@
-# Windows · YZL2 PE 联机版（修复启动器）
+﻿# Windows · YZL2 PE 联机版（修复启动器）
 
 原版 YZL2 启动器有一个 WPF 资源键笔误：`ContentView.xaml` 的 `ComboBoxItem` 控件模板触发器引用
 `{StaticResource AccentSoft}`，而 `Themes/Theme.xaml` 只定义了 `AccentSoftBrush`。BAML 里
@@ -51,8 +51,8 @@ YZL2 PE联机版.exe
 
 | 发行包 | 大小 | 运行时要求 |
 | --- | --- | --- |
-| `YZL2-PE-Launcher-1.0.0-win-x64.zip` | ≈ 0.6 MB | 需安装 .NET 10 **桌面**运行时 |
-| `YZL2-PE-Launcher-1.0.0-win-x64-full.zip` | ≈ 38 MB | 无（自带运行时） |
+| `YZL2-PE-Launcher-1.0.0-win-x64.zip` | ≈ 0.44 MB | 需安装 .NET 10 **桌面**运行时 |
+| `YZL2-PE-Launcher-1.0.0-win-x64-full.zip` | ≈ 31 MB | 无（自带运行时） |
 
 ## 构建
 

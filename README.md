@@ -1,4 +1,4 @@
-# YZL2 · PE 联机版 & Android 横屏移植版
+﻿# YZL2 · PE 联机版 & Android 横屏移植版
 
 [![platform](https://img.shields.io/badge/platform-Android%208.0%2B%20%C2%B7%20Windows%2010%2F11-2F7BE5?style=flat-square)](../../releases/latest)
 [![Android](https://img.shields.io/badge/Android-1.1.0-3DDC84?style=flat-square&logo=android&logoColor=white)](../../releases/latest)
@@ -48,7 +48,7 @@
 | --- | --- | --- |
 | 版本 | 1.0.0 | 1.1.0 |
 | 产物 | `YZL2-PE-Launcher-1.0.0-win-x64.zip` | `YZL2-Android-1.1.0.apk` |
-| 大小 | 轻量版 ≈ 0.6 MB / 免运行时版 ≈ 38 MB | ≈ 8.8 MB |
+| 大小 | 轻量版 ≈ 0.44 MB / 免运行时版 ≈ 31 MB | ≈ 8.8 MB |
 | 运行要求 | Windows 10/11 x64；轻量版需 .NET 10 桌面运行时 | Android 8.0+（minSdk 26），横屏 |
 | 额外依赖 | **原版 YZL2 启动器本体**（自备，写入 `target.txt`） | 运行 Minecraft 需 ZL2 / PojavLauncher 内核（安装版本时自动下载） |
 | 技术栈 | C# / .NET 10 / Win32 | Kotlin 2.0 · Jetpack Compose · Material 3 |
