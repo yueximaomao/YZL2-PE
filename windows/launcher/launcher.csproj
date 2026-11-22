@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>YZL2修复启动</AssemblyName>
+    <RootNamespace>Yzl2Fix</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>yzl2.ico</ApplicationIcon>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <AssemblyTitle>YZL2 修复启动器</AssemblyTitle>
+    <Product>YZL2 Launcher (fixed launcher)</Product>
+    <Description>YZL2 启动器，自动补上缺失的 AccentSoft 资源</Description>
+    <Company>YZL2</Company>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+</Project>

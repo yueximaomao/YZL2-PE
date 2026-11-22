@@ -1,0 +1,29 @@
+# --- 通用 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+
+# --- Android / Gradle ---
+.gradle/
+build/
+app/build/
+.kotlin/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- Windows / .NET ---
+bin/
+obj/
+out/
+*.user
+*.suo
+.vs/
+
+# --- 发布产物（走 GitHub Releases，不进仓库） ---
+dist/
